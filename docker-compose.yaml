@@ -1,0 +1,7 @@
+services:
+  dify-config:
+    image: ns2kracy/dify-config:latest
+    volumes:
+      - /DATA/AppData/dify/data/nginx:/configs/nginx
+      - /DATA/AppData/dify/data/ssrf_proxy:/configs/ssrf_proxy
+      - /DATA/AppData/dify/data/sandbox:/configs/sandbox
