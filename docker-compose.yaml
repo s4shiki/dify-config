@@ -1,6 +1,8 @@
 services:
   dify-config:
+    build: .
     image: s4shiki/dify-config:latest
+    container_name: dify-config
     volumes:
       - /DATA/AppData/dify/data/nginx:/configs/nginx
       - /DATA/AppData/dify/data/ssrf_proxy:/configs/ssrf_proxy
