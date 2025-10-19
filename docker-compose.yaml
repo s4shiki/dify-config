@@ -1,6 +1,6 @@
 services:
   dify-config:
-    image: ns2kracy/dify-config:latest
+    image: s4shiki/dify-config:latest
     volumes:
       - /DATA/AppData/dify/data/nginx:/configs/nginx
       - /DATA/AppData/dify/data/ssrf_proxy:/configs/ssrf_proxy
